@@ -1,65 +1,82 @@
-##API = Aplication Programming Interface
+# API = Aplication Programming Interface
+
 Es un conjunto de reglas que establecen cómo 2 aplicaciones interactuarán entre sí.
 
-##HTTP
+## HTTP
+
 Protocolo de comunicación entre aplicaciones.
 Basado en el intercabio de texto.
 Cómo funciona:
+
 1. Petición de PC a Internet.
 2. Petición de Internet a Servidor.
 3. Respuesta de Servidor a Internet.
 4. Respuesta de Internet a PC.
 
-##Petición HTTP en terminal
+## Petición HTTP en terminal
+
 `curl https://platzi.com`
 
-##Sólo encabezados
+## Sólo encabezados
+
 `curl https://platzi.com`
 
-##Redirección de salida
+## Redirección de salida
+
 `curl https://platzi.com -v > /dev/null`
 
-##Rest
+## Rest
+
 Estilo de arquitectura de software enfocado en el *intercambio de recursos* y basado en *HTTP*.
 
-##API RESTful
+## API RESTful
+
 Una API diseñada alrededor de los conceptos de *REST*.
 
-##Conceptos REST
+## Conceptos REST
+
 - Recurso
 - URI (Universal Resource Identifiers)
 - Acción
 
-##Petición REST
+## Petición REST
+
 - URL
 - Verbo HTTP
 
-##Ejemplos REST
+## Ejemplos REST
+
 - GET/books/1
 - DELETE/books/50
 
-##¿Cuando conviene REST?
+## ¿Cuando conviene REST?
+
 - Interacciones simples
 - Recursos limitados
 
-##Verbos HTTP
+## Verbos HTTP
+
 - GET
 - POST
 - PUT
 - DELETE
 
-##Autenticación HTTP
+## Autenticación HTTP
+
 - Poco segura: Las credenciales se envían en cada request
 
 - Ineficiente: La autenticación se realiza en cada request
 
-##HMAC
+## HMAC
+
 Más segura. La información que se envía no es muy sensible.
 
-##Access Tokens
+## Access Tokens
+
 Extremadamente segura. Utilizada para casos de información muy sensible.
 
-##Buenas práticas REST
+## Buenas práticas REST
+
 - Recursos = sustantivos
 - Plurales
 - Modificaciones con POST, PUT, DELETE
